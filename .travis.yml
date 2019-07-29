@@ -1,0 +1,14 @@
+language: r
+
+cache: packages
+
+r:
+- oldrel
+- release
+- devel
+
+notifications:
+  email: false
+  slack:
+    rooms:
+      secure: "k7bAN9Oe6Jf4K0+IbAG/aOPDyQqb5A+8OZTGjqTsyfbOOBoPDn6EV65q3qAtu7i6eh/Zr9J28G4uU5IiMrT3w8SjtI1s3MHmr4wUIsTUO18QYOXO5dalVEvR0BhOUVvsY/FXdKxFQaIvdfa9MIRIzIqDsgMh2Yeh0wPxZnYjVoDsjXsJhBLb+ZvoduE0Zfzd+nAU7suGW6XOmixL2lt9xpSAuKU0qf3k6dQGLxfbjm3NMgK2fDS4pgOGiaPUK+f0LQpmxcLuhh5doNxNi5Gn372z5GY3RBlQHTuJaXOTz008OZSs9GGBuf+w3202FkKfO1Ca79ZozNTYlW/6VxSM/zpZzVTm34YZ8NQibL6Wrnt4P2Q+PAyfI1U1F8hy2h1SfH5Skh6Qi3fFu8ig57mbg88EVNCcr9zLoEOpnlk5M08zIux60eyGAvdOnuIqhQEgY289er9R4rOp63yGS+rRzNNyCCxR7Q5E4LnUt+5F6uMOriOK9CB8Btnpvp2o15K6xckfrwZHuDfLuRfrERG7cmZvlx1qBnztuMqeGT1en57gdvk7hZ3OoxDv73UIEGE7P8uclKa0Jhq3WNMGyi4B5Qt415qn2baO1I8H1yIAqGI23LCHJXc9ZDqh77WesLg15mrDYh8bIxWgc2XxPA6EOut0NlDIiTsXubVeDFQ2rMA="
